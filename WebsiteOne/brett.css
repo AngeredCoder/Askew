@@ -1,0 +1,182 @@
+ 
+ 
+ img {
+    margin: 30px;
+    border: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: aliceblue;
+    
+    display: center;
+    
+}
+
+
+ html{
+        widows: 3;
+        height:10%;
+}
+
+
+
+
+
+gallery:hover {
+    border: .20px; 
+    color: rgba(245, 248, 248, 0.801);
+}
+
+gallery:  img{
+    width: 15%;
+    height: auto;
+    float: center;
+    border: 20px;
+    solid #ffff;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
+
+
+
+p{
+    font-family: serif;
+    font-size: 40px;
+    color: rgb(211, 231, 25);
+    padding: 30px;
+}
+
+
+.topnav {
+    background-color: rgb(11, 8, 185);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: #fff;
+    text-align: center;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change  links on hover color  */
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.986);
+    color: rgb(207, 123, 26);
+  }
+  
+  /* change active link colors */
+  .topnav a.active {
+    background-color: rgb(202, 118, 7);
+    color: white;
+  }
+
+
+.li {
+list-style-image: 
+
+}
+
+ body {
+    background: url("fallred.jpg") no-repeat center center fixed; 
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{ 
+
+    background-color:  rgb(202, 119, 8);
+} 
+
+.box{
+    background: url("aged.jpg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tip{
+    background: url("wrkbnch.jpg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nit{
+    background: url("Pile.jpg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.desc {
+    padding: .5px;
+    text-align: wrap;
+    color: white;
+}
+
+/*add the background color to the page.*/
+
+
+h1 {
+    color: darkcyan;
+    text-align: center;
+    font-size: 55px;
+}
+
+h2 {
+    color: rgb(253, 255, 122);
+ text-align: center;
+font-family:Helvetica;
+font-size: 30px;
+}
+
+head {
+    text-align: center;
+    font-family: Arial, Bold;
+    font-size: 20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+
+
+h3 {    
+    font-family: verdane;
+    font-size: 50px;
+     text-align: center;
+     color: rgb(34, 151, 79);
+}
+
+
+#footer{ 
+    font-size: 1.0rem;
+    text-align: right;
+}
